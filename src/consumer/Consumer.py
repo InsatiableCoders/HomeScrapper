@@ -7,8 +7,6 @@ class Consumer():
         print(data)
 
     def collect(self, providerName, item):
-        print("Item received from provider %s:" % providerName)
-        print(item)
         self.inbox.append(item)
 
     def inbox_status(self):

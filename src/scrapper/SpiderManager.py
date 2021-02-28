@@ -52,4 +52,3 @@ class SpiderManager():
             process.start()  ## <-- LOCKING
 
             consumer.inbox_status() ## <-- LOCKING
-            consumer.output_inbox() ## <-- LOCKING
